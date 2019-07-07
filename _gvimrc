@@ -85,8 +85,6 @@ set tabstop=2
 set shiftwidth=4
 
 
-
-
 " Window操作のキーマップ変更
 nnoremap s <Nop> 
 nnoremap sj <C-w>j 
@@ -135,7 +133,7 @@ vnoremap " "zdi^V"<C-R>z^V"<ESC>
 vnoremap ' "zdi'<C-R>z'<ESC>
 
 " 日本語入力がオンのままでも使えるコマンド(Enterキーは必要)
-nnoremap あ a
+nnoremap あ い
 nnoremap い i
 nnoremap う u
 nnoremap お o
